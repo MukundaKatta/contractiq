@@ -1,43 +1,20 @@
 # contractiq
 
-**ContractIQ — AI Contract Reviewer. Automated contract analysis, risk identification, and clause extraction.**
+Stub Python project. Described as "AI Contract Reviewer" for "automated contract analysis, risk identification, and clause extraction," but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single `Contractiq` class in `src/core.py` with stub methods (manage, automate, schedule, execute, get_status, optimize, get_stats, reset). Every method immediately returns a dict like `{"ok": True}` without doing any real work.
 
-## Quick Start
-```python
-from src.core import Contractiq
- instance = Contractiq()
-r = instance.manage(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). There is no contract parsing, no NLP/AI analysis, no risk identification, and no clause extraction logic.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Structure
 
-## API
-| Method | Description |
-|--------|-------------|
-| `manage()` | Manage |
-| `automate()` | Automate |
-| `schedule()` | Schedule |
-| `execute()` | Execute |
-| `get_status()` | Get status |
-| `optimize()` | Optimize |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
+- `src/core.py` - Contractiq class with stub methods
+- `examples/` - Example directory
+- `tests/` - Test directory
+- `pyproject.toml` - Project config
 
-## Test
-```bash
-pytest tests/ -v
-```
+## Status
 
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. None of the advertised contract analysis functionality exists.
